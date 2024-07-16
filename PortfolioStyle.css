@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/stony-brook-university-6.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex; 
+    padding: 2% 6%; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    margin-left: 10px;
+}
+
+.nav-links {
+    flex: 1; 
+    text-align: right; 
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px; 
+    position: relative; 
+}
+
+.nav-links ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%; 
+    height: 2px; 
+    background: pink; 
+    display: block; 
+    margin: auto; 
+    transition: 0.5s; 
+}
+
+.nav-links ul li:hover::after {
+    width: 100%; 
+} 
+
+.text-box h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white; 
+    margin-left: 50px;
+    margin-right: 230px; 
+    margin-top: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-box p {
+    color: white; 
+    font-size: 13px; 
+    text-align: center;
+    margin-right: 220px; 
+    margin-top: 10px; 
+}
+
+.outline {
+    display: inline-block;
+    text-decoration: none;
+    color: white; 
+    border: 1px solid white; 
+    padding: 12px 34px; 
+    font-size: 13px;
+    margin-left: 550px;
+    margin-top: 20px;
+    background: transparent; 
+    position: relative; 
+    cursor: pointer; 
+}
+
+.outline:hover {
+    border: 1px solid pink;
+    background: pink;
+    transition: 1s; 
+}
+
+.MyPic{
+    border-radius: 50%;
+    margin-left: 920px;
+    margin-top: -280px;
+}
+
+/* About me */
+.about {
+    width: 100%; 
+    background-size: cover;
+    position: relative; 
+    background-color: thistle;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 36px; 
+    font-weight: 600;
+    
+    margin-left: 60px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+p {
+    color: black; 
+    font-size: 22px; 
+    line-height: 45px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.pic {
+    position: absolute;
+    margin-left: 940px;
+    bottom: 100px;
+}
+
+/* Portfolio section */
+.portfolio {
+    width: 100%; 
+    background-color: lightgray; 
+    min-height: 100vh;
+    padding: 50px 0;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.portfolio h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.HighSchoolImg{
+    
+    position: relative;
+}
+
+.ewsPic{
+    
+    margin-right: 600px; 
+    margin-top:30px;
+}
+
+.layer{
+    background: transparent;
+    height: 450px;
+    width: 450px; 
+    position: absolute;
+    margin-left: 195px;
+    margin-top: -455px;
+    transition:0.5s; 
+    
+}
+
+.layer:hover{
+    background: rgba(217, 59, 64, 0.5);
+
+}
+
+.layer h2{
+    width:100%;
+    font-size: 20px;
+    margin-left: 120px;
+    color: white;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    opacity: 0; 
+}
+
+.layer:hover h2{
+    bottom: 49%;
+    opacity: 1; 
+}
+
+.portfolio p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 195px;
+    margin-top:10px;
+
+}
+
+.CollegeImg{
+    position: relative;
+}
+
+.sbuPic{
+    margin-left:600px;
+    margin-top: -1600px;
+    margin-bottom: 150px;
+}
+
+.layer2{
+    background: transparent;
+    height: 470px;
+    width: 450px; 
+    position: absolute;
+    margin-left: 795px;
+    margin-top: -625px;
+    transition:0.5s; 
+    
+}
+
+.layer2:hover{
+    background: rgba(217, 59, 64, 0.5);
+
+}
+
+
+.layer2 h3{
+    width:100%;
+    font-size: 18px;
+    margin-right: 70px;
+    color: white;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0; 
+}
+
+.layer2:hover h3{
+    bottom: 49%;
+    opacity: 1; 
+}
+
+
+.secondPic p{
+    margin-left: 800px;
+    margin-top: -140px;
+}
+
+.ewsLogo{
+    margin-right: 890px;
+    margin-top: -800px;
+    opacity: 70%;
+}
+
+.sbuLogo{
+    margin-left: 970px;
+    position: relative;
+    top: -640px;
+}
+
+.projects h4{
+    font-size: 30px;
+    text-align: left;
+    margin-top: -80px;
+    margin-left: 195px;
+}
+
+.projects p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.resume h5{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.myResume {
+    display: inline-block;
+    text-decoration: none;
+    color: black; 
+    border: 1px solid black; 
+    padding: 12px 34px; 
+    font-size: 13px;
+    margin-left: 55px;
+    margin-top: 20px;
+    background: transparent; 
+    position: relative; 
+    cursor: pointer; 
+}
+
+.myResume:hover {
+    border: 1px solid rgba(217, 59, 64, 0.5);
+    background:rgba(217, 59, 64, 0.5);
+    transition: 1s; 
+}
+
+/* Contact */
+.contact{
+    margin-top: 80px;
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.8)), url(images/stony-brook-university-6.png);
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+.contact h1{
+    color: white;
+    padding-top: 100px;
+ 
+    
+}
+
+.contact p{
+    color: white;
+    margin-left: 60px;
+   
+
+}
+
+.social-icons{
+    color: white;
+}
+
+.contact-left{
+    flex-basis: 35%;
+    
+}
+
+.contact-right{
+    margin-top: -90px;
+}
+
+
+.contact-right form{
+    width:100%;
+    
+}
+
+form input, textarea{
+
+    width:100%;
+    border:0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 30px;
+    margin-left: 400px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+
+
+form textarea{
+    width:100%;
+    border:0;
+    outline: none;
+    background: #262626;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 570px;
+    margin-right: 200px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+
+
+.button{
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: black; 
+    border: 1px solid black; 
+    padding: 12px 34px; 
+    margin-right: 100px;
+    position: relative;
+    top: 40px;
+    right:19px;
+    background-color: pink;
+    opacity: 80%;
+   
+}
+
+.copyright p{
+    font-size: 15px;
+    opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
